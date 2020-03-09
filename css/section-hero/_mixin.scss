@@ -1,0 +1,12 @@
+$myOrange: #e8522f;
+@mixin cool-link {text-decoration: none;
+    text-transform: uppercase;
+color: inherit;}
+@mixin standard-bg {background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+@mixin common-title {
+    font-size: 72px;
+    font-family: 'Gagalin-Regular', sans-serif;}

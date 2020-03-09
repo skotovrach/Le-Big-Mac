@@ -1,0 +1,37 @@
+.section-properties {
+    background: url("/img/bground/bg.jpg") no-repeat;
+    @include standard-bg;
+}
+.title--black {
+    @include common-title;
+    color: #2f3234;
+    text-align: center;
+    padding-top: 135px;
+}
+.properties__row {
+    display: flex;
+    justify-content: space-between;
+}
+.properties__col {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    &:last-child .properties__pic {margin-bottom: 15px;}
+}
+.properties__pic {
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.properties__img {
+    display: block;
+}
+.properties__value {
+    font-family: "Lifehack-Medium", sans-serif;
+    font-size: 24px;
+    padding-top: 25px;
+    text-align: center;
+}
+.properties__description {
+    padding-top: 25px;
+}

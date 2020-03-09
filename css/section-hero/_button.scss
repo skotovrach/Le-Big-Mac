@@ -1,0 +1,26 @@
+.btn {
+    @include cool-link;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: $myOrange;
+    margin-left: 15px;
+    font-family: Ubuntu, sans-serif;
+}
+.arrow-scroll {
+background: url(/img/arrow.png) no-repeat center center;
+width: 50px;
+height: 25px;
+// border: 2px solid yellow;
+display: block;
+margin: 75px auto auto;
+}
+.btn--info {
+    background-color: #2f3234;
+    display: block;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 0px;
+    position: absolute;
+    left: 20px;
+}

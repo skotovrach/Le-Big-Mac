@@ -1,0 +1,43 @@
+@import "mixin";
+@import "header";
+@import "logo";
+@import "nav";
+@import "button";
+@import "content";
+@import "properties";
+@import "reviews";
+
+@font-face {
+    font-family: 'Gagalin-Regular';
+    src: url("/fonts/Gagalin-Regular.woff");
+}
+@font-face {
+    font-family: 'Lifehack-Medium';
+    src: url("/fonts/Lifehack-Medium.woff");
+}
+
+.wrapper {
+    margin: 0 auto;
+    // border: 5px solid yellow;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-hero {
+    background: url("/img/texture.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.hero__content {
+    flex: 1;
+}
+.container {width: 950px;
+margin: 0 auto;}
+
+

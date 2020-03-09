@@ -1,0 +1,12 @@
+.hero__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 90px;
+  font-size: 13px;
+}
+
+.header {
+  flex: 0;
+}

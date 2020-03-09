@@ -1,0 +1,25 @@
+.hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero__title {
+    color: #f9b43b;
+@include common-title;
+}
+.hero__description {
+    color: white;
+    font-family: 'Lifehack-Medium', sans-serif;
+    font-size: 65px;
+}
+.hero__img {
+    // padding-left: 20px;
+    transform: translate(20px, -15px)}
+.hero__title {
+    transform: translate(33px, 45px)
+}
+.hero__description {
+    line-height: .9em;
+    transform: translate(30px, 5px);
+}
